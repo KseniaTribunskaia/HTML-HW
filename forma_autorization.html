@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="shortcut icon" href="HTML HW/images/favicon.ico" type="image/ico">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="authorization">
+  <h2>Регистрация личного кабинета</h2>
+  <form action="#" method="post">     <!-- borders of the form -->
+    <!-- обработчик данных - экшн а метод - это как  -->
+      <div class="input-wrapper">
+    <label for="login">Ваше имя и фамилия:</label>
+<input id="login" name="identification" type="text" placeholder="Имя и фамилия" required minlength="10" autofocus>
+<!-- rquired это обязательное для заполнения maxlength and minlength для текстовых полей -->
+<!-- одиночный тег для ввода текста чисел даты загрузки файлов взятия цветов и тд
+в текст можно и цифры ввести -->
+</div>
+<div class="input-wrapper">
+  <!-- label привязан к элементу с id = pass -->
+  <label for="pass">Пароль:</label>
+<input id="pass" name="password" type="password"  maxlength="10">
+<span class="material-icons password">lock</span>
+<span class="material-icons visibility">visibility</span>
+<span class="material-icons visibility-off">visibility_off</span><!-- символы скрыты  -->
+<!-- value нельзя использовать как подсказку - обычно пользовательский выбор -->
+<!-- type это из заданного списка name придумываем id придумываем / элементов с одинакрввым
+id не должно быть / с name могут быть /name может совподать с id и с type -->
+</div>
+
+<div>
+      <!-- выпадающий список -->
+      <!-- multiple - позволяет выбрать несколько пунктов списка-->
+      <!--size="2" - количество отображаемых option-->
+      <!--selected - элемент выбран по умолчанию-->
+      <!--label привязан к элементу с id category-->
+      <label for="category">Студия:</label>
+      <select id="category">
+          <optgroup  label="Василевский остров">
+              <option selected>Студия при академии художеств им.Репина</option>
+              <option>Студия музея "АртМуза"</option>
+          </optgroup>
+          <optgroup label="Центральный район">
+              <option>Студия при промышленной академии им.Штиглица</option>
+              <option>Студия Маяковского</option>
+          </optgroup>
+          <optgroup label="Петроградский район">
+              <option>Студия скульптуры и рисунка на ул. Попова</option>
+              <option>АШНБ студия</option>
+          </optgroup>
+      </select>
+  </div>
+
+<div>
+  <!-- полк вложенное в label будет  связано аналогично привязке по id-for -->
+  <label>
+    Запомнить меня
+    <input type="checkbox" checked>
+  </label>
+
+</div>
+<div>
+<input class="color" type="submit" value="Войти">
+
+  </form>
+</body>
+</html>

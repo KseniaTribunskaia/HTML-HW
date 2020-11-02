@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="shortcut icon" href="HTML HW/images/favicon.ico" type="image/ico">
+    <title>Добро пожаловать в раздел заказов</title>
+  </head>
+
+  <body>
+    <H1>Заказать произведение</H1><br>
+    <form action="#" method="post">   вот здесь у них enctype
+
+    <div>
+      <label for="zakazchik">Имя заказчика</label>
+      <input id="zakazchik" name="zakazchik" type="text">
+    </div>
+
+    <div>
+      <label for="title">Срок исполнения</label>
+      <input id="date" name="data" type="date" >
+    </div>
+
+    <div>
+      <label for="image">Загрузить фотографии референсов</label>
+      <input id="images" name="ref[]" type="file" multiple accept="image/*">
+    </div>
+
+    <fieldset>
+    <legend><i>Дополнительная информация</i></legend>
+
+        <div>
+            <p>Характеристики изображения</p>
+
+            <label>Живописное изображение
+              <input type="checkbox" value="paint" name="feature">
+            </label>
+
+            <label>Черно-белый рисунок
+              <input type="checkbox" value="drawing" name="feature">
+            </label>
+
+            <label>Изображение по произведению
+              <input type="checkbox" value="illustration" name="feature">
+            </label>
+
+            <label>Копия известного произведения
+              <input type="checkbox" value="copy" name="feature">
+            </label>
+
+            <label>Digital-версия
+              <input type="checkbox" value="digital" name="feature">
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <div>
+            <p>Размер картины</p>
+
+            <label>А4
+              <input name="smallsize" type="radio" value="small" name="size">
+            </label>
+
+            <label>А3
+              <input name="mediumsize" type="radio" value="medium" name="size">
+            </label>
+
+            <label>А2
+              <input name="bigsize" type="radio" value="big" name="size">
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <div>
+          <p>Доставка</p>
+
+            <label>По почте
+              <input type="radio" value="dostavka_metod_1" name="dostavka">
+            </label>
+
+            <label>СДЭК
+              <input type="radio" value="dostavka_metod_2" name="dostavka">
+            </label>
+
+            <label>Курьером
+              <input type="radio" value="dostavka_metod_3" name="dostavka">
+          </label>
+        </div>
+
+      </fieldset>
+
+  <div>
+    <label for="description">Расширенный комментарий о заказе</label>
+    <textarea  id="description" name="comment" placeholder="Комментарий"></textarea>
+  </div>
+
+
+  <div>
+      <fieldset>
+
+          <p>Оплата заказа</p>
+
+          <label>Paypal<input type="checkbox" value="paypal" name="oplata" </label>
+          <label>Яндекс-кошелек<input type="checkbox" value="yandex" name="oplata" </label>
+          <label>Сбербанк-онлайн<input type="checkbox" value="sberbank" name="oplata" </label>
+      </fieldset>
+  </div>
+
+
+  <div>
+    <button type="submit">Добавить</button>
+    <button type="reset">Очистить</button>
+  </div>
+</form>
+
+</body>
+</html>

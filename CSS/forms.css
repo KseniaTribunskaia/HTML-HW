@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font: 16px/24px 'Questrial', sans-serif;
+    font-weight: 400;
+    color: #cdb9b0;
+}
+
+.color {
+color: #cdb9b0;
+}
+
+.authorization {
+    background-image: url("/Users/tribuko/Documents/GitHub/project1810/HTML HW/images/img3.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.authorization:before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+}
+
+.authorization form {
+    width: 450px;
+    border-radius: 10px;
+    background: #18161d;;
+    padding: 40px;
+}
+
+
+input {
+    border-style: none;
+    outline-style: none;
+    background: transparent;
+}
+
+input[type=text],
+input[type=password] {
+    width: 400px;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    color: white;
+    padding: 0 0 5px 30px;
+}

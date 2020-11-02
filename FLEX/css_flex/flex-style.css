@@ -1,0 +1,138 @@
+/* .padding {
+
+    border: 1px solid black;
+} */
+
+.padding_elem {
+  padding: 3px;
+}
+.border {
+  border: 2px solid black;
+}
+
+
+
+header,
+footer {
+    height: 50px;
+    background: orangered;
+    flex: 0 0 auto;
+}
+
+
+
+/* flexbox: прижатый футер */
+html {
+    height: 100%;
+}
+
+aside {
+    background: #cc3300;
+}
+
+body {
+    font-size: 15px;
+    height: 100%;
+    margin: auto;
+}
+
+.navbar {
+    flex: 1 0 auto;
+    background-color: red;
+
+
+}
+
+aside {
+    background: #blue;
+    justify-content: space-between;
+}
+
+/* flexbox: прижатый футер */
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+/* flex-1 для одного элемента из нескольких:
+все доступное пространство будет занимать данный элемент*/
+/* flex-1 для всех элементов: разделят пространство равным образом */
+
+.main-block {
+    /* grow shrink basis */
+    flex: 1 0 auto;
+}
+
+
+img {
+
+    width: 100%;
+    height:100px ;
+}
+.link {
+
+   height: 100%;
+   background-color: grey;
+   border: 1 solid black;
+}
+
+.line1 {
+  display: inline-flex;
+  margin: 10px;
+  flex-grow: 0;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+}
+.push {
+    margin-left: auto;
+}
+      
+---------------------------------------
+
+.flex {
+        display: flex;
+        border: 1px solid #3E2723;
+    }
+
+.flex-horizontal-center {
+        justify-content: center;
+    }
+
+.flex-vertical-center {
+        align-items: center;
+    }
+
+
+.flex-container {
+      justify-content: space-between;
+    }
+
+.flex-container-1 {
+  justify-content: space-around;
+}
+
+.parent {
+  display: flex;
+}
+.child + .child {
+  margin: 12px;
+}
+
+.text-align {
+  text-align: center;
+}

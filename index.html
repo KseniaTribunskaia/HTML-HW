@@ -1,0 +1,74 @@
+<!DOCTYPE html> <!--указание на html5-->
+<html lang="ru">
+ <head>
+   <!--мы подключаем стили и java script тоже тут-->
+   <!--мета теги тоже тут и-->
+   <!--иконка вкладки и текст вклади тоже здесь-->
+    <meta charset="utf-8">   <!--всегда указывает кодировку страницы-->
+    <meta name="author" content="Ksenia T">
+    <meta name="Description" content="description">
+    <meta name="keywords" content="художник, картины, живопись">
+    <link rel="shortcut icon" href="HTML HW/images/favicon.ico" type="image/ico">
+    <title>Главная</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--    <link rel="stylesheet" href="css/style.css">-->
+ </head>
+
+ <body> <!--располагаем теги которые отвечают за то что видит пользователь-->
+    <header class="bg-brown-7">
+      <nav class="container text-center"> <!--menu navigation-->
+         <a "text-brown-1" href="index.html">Главная</a> <!--link-->
+         <a "text-brown-1" href="gallery.html">Галерея работ</a>
+         <a "text-brown-1" href="bio.html">Биография</a>
+         <a "text-brown-1" href="blog.html">Блог</a>
+         <a "text-brown-1" href="contacts.html">Контакты</a>
+         <a "text-brown-1" href="store.html">Магазин</a>
+      </nav>
+    </header>
+
+   <main class="container  main-margin more-btn">   <!-- для отображения основного содержимого страницы -->
+      <h1><i><b>Художник</i></b></h1>
+       <video
+        controls width="800" height="600" loop poster="HTML HW/videos/video1.mp4" autoplay="HTML HW/videos/video1.mp4">
+       <source src="videos/video1.mp4" type="video/mp4">
+       </video>
+
+    <section>  <!-- раздел -->
+
+          <h2> Галерея работ</h2>
+
+      <article>
+            <h3>Последние работы</h3>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse neque itaque vero magnam! Debitis deserunt hic quam earum in, esse minima. Eius voluptates adipisci ducimus blanditiis eveniet consectetur quae eum.
+                </p>
+              <img src="images/img1.jpg" alt="картина" width="700">
+              <img src="images/img2.jpg" alt="картина" width="700">
+              <img src="images/img3.jpg" alt="картина" width="700">
+              <br>
+              <br>
+
+
+              <a class="shadow-btn text-shadow more-btn bg-brown-9 text-brown-1 text-center more-btn" href="gallery.html">Подробнее</a>
+               <br>
+
+              <p><a href="images/img3.jpg" download>Скачать файл</a> </p>
+      </article>
+
+    </section>
+
+    <section>
+        <h2>Онлайн магазин</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse neque itaque vero magnam! Debitis deserunt hic quam earum in, esse minima. Eius voluptates adipisci ducimus blanditiis eveniet consectetur quae eum.
+            </p>   <!-- text paragrpgh -->
+        <a href="gallery.html">Перейти в онлайн-магазин</a>
+    </section>
+
+  </main>
+
+  <a href="#" class="up-btn text-brown-1 bg-brown-9 material-icons">arrow_upward</a>
+      <footer class="text-center bg-brown-7">Контакты</footer>
+ </body>
+</html>
