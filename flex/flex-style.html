@@ -25,10 +25,10 @@ css/flex-style.css
 <!--          SIDEBAR             -->
 <div class="main-block flex-row">
     <aside class="col-1 flex-column">
-        <div class="link border text-align">LINK 1</div>
-        <div class="link border text-align">LINK 2</div>
-        <div class="link border text-align">LINK 3</div>
-        <div class="link border text-align">LINK 4</div>
+        <div class="link border text-align flex-column flex-horizontal-center flex-vertical-center">LINK 1</div>
+        <div class="link border text-align flex-column flex-horizontal-center flex-vertical-center">LINK 2</div>
+        <div class="link border text-align flex-column flex-horizontal-center flex-vertical-center">LINK 3</div>
+        <div class="link border text-align flex-column flex-horizontal-center flex-vertical-center">LINK 4</div>
         </aside>
 
 <!--       LINE 1 IMAGE            -->
@@ -43,7 +43,7 @@ css/flex-style.css
 <!--            LINE 2    IMAGES      -->
 
 
-        <div class="flex-row box">
+        <div class="flex-row flex-container-1">
             <div class="col-3 text-align border padding">
               <p class="flex-container ">Lorem ipsum.</p>
                 <img src="kartinka.jpg"></div>
@@ -67,7 +67,7 @@ css/flex-style.css
         <div class="flex-row">
 
             <div class="col-3 border">
-                <img src="kartinka.jpg" >
+                <img class="padding" src="kartinka.jpg" >
             </div>
 
             <div class="col-3 border">
@@ -94,7 +94,7 @@ css/flex-style.css
 
 <!--            LINE 4     TEXT TEXT  IMAGE TEXT      -->
 
-        <div class="flex-row line4">
+        <div class="flex-row">
 
             <div class="col-3 border">
                 <p class="child text-align padding">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -103,7 +103,7 @@ css/flex-style.css
                     illum distinctio adipisci iste animi cupiditate. </p>
             </div>
             <div class="col-3 border">
-                <p class="child text-align">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                <p class="child text-align padding">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Odio sint praesentium et, ullam fugiat voluptas nostrum
                     aliquam accusantium quia in architecto hic officia corporis
                     illum distinctio adipisci iste animi cupiditate. </p>
@@ -121,23 +121,29 @@ css/flex-style.css
         </div>
 
 <!--            LINE 5           -->
-        <div class="flex-row line5">
+        <div class="flex-row ">
             <div class="flex-row col-6">
-                <div class="col-6 line5-1">
-                    <div class=" padding">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Repellendus eius fugit harum earum soluta ducimus aperiam quos quis ratione corporis.</p></div>
-                    <div class=""><p class="padding"><img src="kartinka.jpg"></p></div>
-                </div>
-                <div class="col-6  padding">
-                    <img src="kartinka.jpg" >
+                <div class="col-6">
 
+                    <div class="border padding">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Repellendus eius fugit harum earum soluta ducimus aperiam quos quis ratione corporis.</p></div>
+
+                    <div class="padding border "><img src="kartinka.jpg"></p></div>
+                </div>
+
+
+                <div class="col-6">
+                    <img class="padding border flex-container-3" src="kartinka.jpg" >
                 </div>
             </div>
+
+
+
             <div class="col-6">
-                <div class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem enim dolorem, aliquid assumenda excepturi quod? Expedita est excepturi iure explicabo quas perferendis odit consectetur doloribus labore ipsum, obcaecati earum suscipit eum dicta quos veniam soluta ipsa, porro laborum molestiae nisi dolores ar
+                <div class="border padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem enim dolorem, aliquid assumenda excepturi quod? Expedita est excepturi iure explicabo quas perferendis odit consectetur doloribus labore ipsum, obcaecati earum suscipit eum dicta quos veniam soluta ipsa, porro laborum molestiae nisi dolores ar
                     chitecto mollitia fugit. Natus nemo quo error ratione impedit?
                 </div>
-                <div class="border">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam autem perspiciatis voluptatum quod? Non iure quaerat quidem quisquam iste odio tempore excepturi aut ipsum necessitatibus dolorem soluta similique minima, debitis quae perferendis perspiciatis enim dolores consectetur provident aliquid possimus sunt at. D
+                <div class="border padding">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam autem perspiciatis voluptatum quod? Non iure quaerat quidem quisquam iste odio tempore excepturi aut ipsum necessitatibus dolorem soluta similique minima, debitis quae perferendis perspiciatis enim dolores consectetur provident aliquid possimus sunt at. D
                     istinctio minus beatae laboriosam, possimus harum quam iste ad.
                 </div>
             </div>

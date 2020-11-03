@@ -10,7 +10,7 @@ color: #cdb9b0;
 }
 
 .authorization {
-    background-image: url("/Users/tribuko/Documents/GitHub/project1810/HTML HW/images/img3.jpg");
+    background-image: url("../images/img3.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;

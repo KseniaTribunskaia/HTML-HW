@@ -3,9 +3,6 @@
     padding: 5px;
 }
 
-.padding_elem {
-  padding: 3px;
-}
 .border {
   border: 2px solid black;
 }
@@ -43,10 +40,7 @@ body {
 
 }
 
-aside {
-    background: #blue;
-    justify-content: space-between;
-}
+
 
 /* flexbox: прижатый футер */
 html {
@@ -61,9 +55,6 @@ body {
     background: white;
 }
 
-/* flex-1 для одного элемента из нескольких:
-все доступное пространство будет занимать данный элемент*/
-/* flex-1 для всех элементов: разделят пространство равным образом */
 
 .main-block {
     /* grow shrink basis */
@@ -83,24 +74,11 @@ img {
    border: 1 solid black;
 }
 
-.line1 {
-  display: inline-flex;
-  margin: 10px;
-  flex-grow: 0;
-  justify-content: space-around;
-}
 
-.box {
-  display: flex;
-  justify-content: space-around;
-}
 
-.box {
-  display: flex;
-}
-.push {
-    margin-left: auto;
-}
+
+
+
 
 ---------------------------------------
 
@@ -118,14 +96,6 @@ img {
     }
 
 
-.flex-container {
-      justify-content: space-between;
-    }
-
-.flex-container-1 {
-  justify-content: space-around;
-}
-
 .parent {
   display: flex;
 }
@@ -136,3 +106,54 @@ img {
 .text-align {
   text-align: center;
 }
+
+
+
+/*.flex-container-1 div,
+.flex-container-2 div,
+.flex-container-3 div,
+.flex-container-4 div,
+.flex-container-5 div{
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    border: 1px solid #3E2723;
+}
+/* Свойства flex контейнера */
+/*выравниевание по горизонтали*/
+.flex-container-1 {
+    display: flex;
+    background: lightgray;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+
+.flex-container-3 {
+ align-items: stretch;
+}
+
+/* выравнивание по вертикали
+
+.flex-container-2 div:nth-child(2) {
+    height: 200px;
+}
+
+.flex-container-2 {
+    height: 300px;
+    background: lightgray;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+}
+
+
+*/
