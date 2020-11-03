@@ -1,7 +1,7 @@
-/* .padding {
+.padding {
 
-    border: 1px solid black;
-} */
+    padding: 5px;
+}
 
 .padding_elem {
   padding: 3px;
@@ -101,7 +101,7 @@ img {
 .push {
     margin-left: auto;
 }
-      
+
 ---------------------------------------
 
 .flex {
